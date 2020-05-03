@@ -23,7 +23,7 @@ public class ExampleMain {
      */
     private void connectMySQL() {
         try {
-            MySQL mySQL = new MySQL("", "", "", "");
+            MySQL mySQL = new MySQL("coolHostHere", "coolDataBaseHere", "coolUsernameHere", "coolPasswordHere");
             mySQL.update("CREATE TABLE IF NOT EXISTS ExampleTable(TEST int);");
             System.out.println("[MYSQL] Tables were successfully created any MySQL established");
         } catch (Exception e) {

@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-/***
+/**
  * Code in this class is written by xShequ/Scott. (in 2020)
  * You can use this code in any way you like and you DO NOT need to credit me.
  * I'm not responsible for any damage that this code will cause!

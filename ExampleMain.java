@@ -26,9 +26,9 @@ public class ExampleMain {
             MySQL mySQL = new MySQL("coolHostHere", "coolDataBaseHere", "coolUsernameHere", "coolPasswordHere");
             mySQL.update("CREATE TABLE IF NOT EXISTS ExampleTable(TEST int);");
             System.out.println("[MYSQL] Tables were successfully created any MySQL established");
-        } catch (Exception e) {
+        } catch (Exception exception) {
             System.out.println("[ERROR] Could not connect to MySQL Database!");
-            System.out.println("[ERROR] Error: " + e.getMessage());
+            System.out.println("[ERROR] Error: " + exception.getMessage());
         }
     }
 
